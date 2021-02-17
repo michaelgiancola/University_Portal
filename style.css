@@ -1,0 +1,72 @@
+/* styles the submit buttons, text boxes, drop down menus, fonts, tables, and background */
+
+h1{font-size: 50px;}
+
+input[type=submit] {
+  background-color: #213970;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-style:outset;
+}
+
+input[type=text] {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: text;
+}
+
+select {
+
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body {
+        font-size: 16px;
+        font-family: Helvetica;
+        background-color: #D3D3D3;
+        text-align: center;
+}
+
+table {
+  border-spacing: 0;
+  border: 3px solid #ddd;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #213970;
+  color: white;
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 11px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+  background-color: #D3D3D3
+}
